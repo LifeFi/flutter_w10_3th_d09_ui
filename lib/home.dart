@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_w10_3th_d09_ui/card.dart';
 import 'package:flutter_w10_3th_d09_ui/util.dart';

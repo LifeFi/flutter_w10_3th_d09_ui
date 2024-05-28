@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class ItemCard extends StatelessWidget {
@@ -56,35 +54,44 @@ class ItemCard extends StatelessWidget {
                     child: Column(
                       // mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(startHour,
-                            style: const TextStyle(
-                              color: Colors.black,
-                              fontSize: 24,
-                              fontWeight: FontWeight.w600,
-                            )),
-                        Text(startMinute,
-                            style: const TextStyle(
-                              color: Colors.black,
-                              height: 0.5,
-                              fontWeight: FontWeight.w600,
-                            )),
+                        Text(
+                          startHour,
+                          style: const TextStyle(
+                            color: Colors.black,
+                            fontSize: 24,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Text(
+                          startMinute,
+                          style: const TextStyle(
+                            color: Colors.black,
+                            height: 0.5,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         Expanded(
-                            child: VerticalDivider(
-                          indent: 10,
-                          color: Colors.black.withOpacity(0.4),
-                        )),
-                        Text(endHour,
-                            style: const TextStyle(
-                              color: Colors.black,
-                              fontSize: 24,
-                              fontWeight: FontWeight.w600,
-                            )),
-                        Text(endMinute,
-                            style: const TextStyle(
-                              color: Colors.black,
-                              height: 0.5,
-                              fontWeight: FontWeight.w600,
-                            )),
+                          child: VerticalDivider(
+                            indent: 10,
+                            color: Colors.black.withOpacity(0.4),
+                          ),
+                        ),
+                        Text(
+                          endHour,
+                          style: const TextStyle(
+                            color: Colors.black,
+                            fontSize: 24,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Text(
+                          endMinute,
+                          style: const TextStyle(
+                            color: Colors.black,
+                            height: 0.5,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                       ],
                     ),
                   ),
